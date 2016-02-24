@@ -29,5 +29,9 @@ public class DemoLogging {
 
 		}
 
+		l.warn("This is warn message");
+		l.error("This is error message");
+		l.fatal("This is fatal message");
+
 	}
 }
