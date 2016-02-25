@@ -10,7 +10,8 @@ package Search;
  * then the algorithm repeats its action on the sub-array to the left of the middle element 
  * or,
  * if the input key is greater, on the sub-array to the right.
- * If the remaining array to be searched is reduced to zero, then the key cannot be found in the array and a special "Not found" indication is returned.
+ * If the remaining array to be searched is reduced to zero,
+ * then the key cannot be found in the array and a special "Not found" indication is returned.
  * Every iteration eliminates half of the remaining possibilities.
  * This makes binary searches very efficient - even for large collections.
  * 
